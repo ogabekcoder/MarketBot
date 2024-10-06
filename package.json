@@ -1,0 +1,26 @@
+{
+  "name": "evos-delivery-bot",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "author": "mcpeblocker",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/local-auth": "2.1.0",
+    "cloudinary": "^2.5.0",
+    "dotenv": "^14.3.2",
+    "googleapis": "^144.0.0",
+    "mongoose": "^8.7.0",
+    "mongoose-sequence": "^6.0.1",
+    "telegraf": "^4.6.0",
+    "telegraf-media-group": "^1.2.1",
+    "telegraf-session-redis": "^5.1.0",
+    "winston": "^3.5.0"
+  },
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
